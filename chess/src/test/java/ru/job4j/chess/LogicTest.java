@@ -9,7 +9,7 @@ public class LogicTest {
 
     @Ignore
     @Test
-    public void move()
+    public void whenLogicMove()
             throws FigureNotFoundException, OccupiedCellException, ImpossibleMoveException {
         Logic logic = new Logic();
         logic.add(new BishopBlack(Cell.C1));

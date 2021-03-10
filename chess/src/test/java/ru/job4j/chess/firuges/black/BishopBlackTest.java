@@ -9,7 +9,6 @@ import static org.junit.Assert.*;
 public class BishopBlackTest {
 
     @Test
-
     public void whenPositionTrue(){
         Cell cell = Cell.B2;
         BishopBlack b = new BishopBlack(cell);
